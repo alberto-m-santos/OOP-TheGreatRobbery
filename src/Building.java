@@ -1,4 +1,5 @@
 public class Building {
+
     private String name;
     private Item[] items;
 
@@ -11,7 +12,7 @@ public class Building {
         return name;
     }
 
-    public Item[] getItems(){
+    public Item[] getItems() {
         return items;
     }
 }
